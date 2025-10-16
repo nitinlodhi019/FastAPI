@@ -4,7 +4,7 @@ An API stands for Application Programming Interface.
 
 **In simple words:**
 
-    API is a way for two software applications to talk to each other and share data or services.
+API is a way for two software applications to talk to each other and share data or services.
 
 # FastAPI
 
