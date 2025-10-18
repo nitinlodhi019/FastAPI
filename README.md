@@ -60,3 +60,9 @@ HTTP status codes are three-digit numbers returned by a web server in response t
     * **500 Internal Server Error:** A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
     * **502 Bad Gateway:** The server, while acting as a gateway or proxy, received an invalid response from an upstream server.
     * **503 Service Unavailable:** The server is currently unable to handle the request due to temporary overload or scheduled maintenance.
+
+# HTTPException
+In FastAPI, HTTPException is a special type of exception used to signal HTTP-specific errors to the client. When an HTTPException is raised within a path operation function or a dependency, FastAPI automatically catches it and generates an appropriate HTTP response. This response includes the specified HTTP status code and a JSON payload containing the error details.
+
+# Query Parameters
+In FastAPI, query parameters are key-value pairs that are included in the URL after a question mark (?) and separated by ampersands (&). They are used to pass optional data to an endpoint, typically for filtering, sorting, or paginating results.
