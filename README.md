@@ -15,6 +15,23 @@ FastAPI is a modern, fast (high-performance) Python web framework used for build
 
 It is built on top of **Starlette** (for the web parts) and **Pydantic** (for data validation).
 
+# Path Parameters
+
+In FastAPI, path parameters are used to define dynamic segments within a URL path, allowing an API endpoint to handle requests for specific resources identified by values in the URL.
+
+## Declaration:
+
+Path parameters are declared in the path string of a route decorator using curly braces {}. The name inside the braces corresponds to a parameter in the associated path operation function.
+```bash
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/items/{item_id}")
+async def read_item(item_id: int):
+    return {"item_id": item_id}
+```
+
 # HTTP status codes
 
 HTTP status codes are three-digit numbers returned by a web server in response to a client's request. These codes, part of the Hypertext Transfer Protocol (HTTP), communicate the outcome of the request, indicating whether it was successful, redirected, or resulted in an error. 
