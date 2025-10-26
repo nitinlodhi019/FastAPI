@@ -1,0 +1,9 @@
+Pydantic/
+
+# Ignore virtual environments
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+

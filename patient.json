@@ -1,0 +1,12 @@
+{"P001": {"name": "Rahul", "city": "Lucknow", "age": 30, "gender": "male", "height": 1.65,
+  "weight": 76.0, "bmi": 33.08, "verdict": "Obese"},
+  "P002": {"name": "Suresh Kumar", "city": "Bareily", "age": 45, "gender": "male",
+    "height": 1.85, "weight": 55.0, "bmi": 31.18, "verdict": "Underweight"},
+  "P003": {"name": "Priya Sharma", "city": "Delhi", "age": 28, "gender": "female", "height": 1.6,
+    "weight": 60.0, "bmi": 23.44, "verdict": "Normal"},
+  "P004": {"name": "Amit Verma", "city": "Kanpur", "age": 35, "gender": "male", "height": 1.75,
+    "weight": 85.0, "bmi": 27.76, "verdict": "Overweight"},
+  "P005": {"name": "Neha Patel", "city": "Ahmedabad", "age": 40, "gender": "female",
+    "height": 1.55, "weight": 48.0, "bmi": 19.98, "verdict": "Normal"},
+  "P006": {"name": "abc", "city": "aws", "age": 1, "gender": "male", "height": 1.0,
+    "weight": 1.0, "bmi": 1.0, "verdict": "Underweight"}}
