@@ -1,4 +1,4 @@
-# (Pydantic Model)[https://github.com/nitinlodhi019/Pydantic]
+# [Pydantic Model](https://github.com/nitinlodhi019/Pydantic)
 
 # API
 
